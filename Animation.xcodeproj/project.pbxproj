@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C34AE876E6E1D323142F893 /* libPods-Animation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CEBAA3CD3AAD7FE99255FC70 /* libPods-Animation.a */; };
+		E967DCD420196C3900667E83 /* DingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E967DCD320196C3900667E83 /* DingViewController.m */; };
+		E98C9FC620181D5B00790F1C /* TransitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E98C9FC520181D5B00790F1C /* TransitionViewController.m */; };
+		E98C9FC9201837C200790F1C /* AffineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E98C9FC8201837C200790F1C /* AffineViewController.m */; };
+		E98C9FCC201863F500790F1C /* PathViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E98C9FCB201863F500790F1C /* PathViewController.m */; };
 		E9B90FF12016D75900AE787C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B90FF02016D75900AE787C /* AppDelegate.m */; };
 		E9B90FF42016D75900AE787C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B90FF32016D75900AE787C /* ViewController.m */; };
 		E9B90FF72016D75900AE787C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9B90FF52016D75900AE787C /* Main.storyboard */; };
@@ -15,6 +20,9 @@
 		E9B90FFF2016D75900AE787C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B90FFE2016D75900AE787C /* main.m */; };
 		E9B910092016D75900AE787C /* AnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B910082016D75900AE787C /* AnimationTests.m */; };
 		E9B910142016D75900AE787C /* AnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B910132016D75900AE787C /* AnimationUITests.m */; };
+		E9B910252016DC7200AE787C /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B910242016DC7200AE787C /* BaseViewController.m */; };
+		E9B910282017078500AE787C /* KeyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B910272017078500AE787C /* KeyViewController.m */; };
+		E9B9102B2017384700AE787C /* GroupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B9102A2017384700AE787C /* GroupViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +43,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3FC15D28B2842E904440CF39 /* Pods-Animation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Animation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Animation/Pods-Animation.debug.xcconfig"; sourceTree = "<group>"; };
+		A5467F25376925398DF2001A /* Pods-Animation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Animation.release.xcconfig"; path = "Pods/Target Support Files/Pods-Animation/Pods-Animation.release.xcconfig"; sourceTree = "<group>"; };
+		CEBAA3CD3AAD7FE99255FC70 /* libPods-Animation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Animation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E967DCD220196C3900667E83 /* DingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DingViewController.h; sourceTree = "<group>"; };
+		E967DCD320196C3900667E83 /* DingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DingViewController.m; sourceTree = "<group>"; };
+		E98C9FC420181D5B00790F1C /* TransitionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransitionViewController.h; sourceTree = "<group>"; };
+		E98C9FC520181D5B00790F1C /* TransitionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransitionViewController.m; sourceTree = "<group>"; };
+		E98C9FC7201837C200790F1C /* AffineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AffineViewController.h; sourceTree = "<group>"; };
+		E98C9FC8201837C200790F1C /* AffineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AffineViewController.m; sourceTree = "<group>"; };
+		E98C9FCA201863F500790F1C /* PathViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PathViewController.h; sourceTree = "<group>"; };
+		E98C9FCB201863F500790F1C /* PathViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PathViewController.m; sourceTree = "<group>"; };
 		E9B90FEC2016D75900AE787C /* Animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Animation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9B90FEF2016D75900AE787C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E9B90FF02016D75900AE787C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +70,13 @@
 		E9B9100F2016D75900AE787C /* AnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9B910132016D75900AE787C /* AnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationUITests.m; sourceTree = "<group>"; };
 		E9B910152016D75900AE787C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9B910222016DA7700AE787C /* Animation-Prefix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Animation-Prefix.h"; sourceTree = "<group>"; };
+		E9B910232016DC7200AE787C /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		E9B910242016DC7200AE787C /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		E9B910262017078500AE787C /* KeyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyViewController.h; sourceTree = "<group>"; };
+		E9B910272017078500AE787C /* KeyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyViewController.m; sourceTree = "<group>"; };
+		E9B910292017384700AE787C /* GroupViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GroupViewController.h; sourceTree = "<group>"; };
+		E9B9102A2017384700AE787C /* GroupViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GroupViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C34AE876E6E1D323142F893 /* libPods-Animation.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +105,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D278587DD8310456B814045 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEBAA3CD3AAD7FE99255FC70 /* libPods-Animation.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8C8C64838EEFF32ED804956E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3FC15D28B2842E904440CF39 /* Pods-Animation.debug.xcconfig */,
+				A5467F25376925398DF2001A /* Pods-Animation.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E9B90FE32016D75900AE787C = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +129,8 @@
 				E9B910072016D75900AE787C /* AnimationTests */,
 				E9B910122016D75900AE787C /* AnimationUITests */,
 				E9B90FED2016D75900AE787C /* Products */,
+				8C8C64838EEFF32ED804956E /* Pods */,
+				3D278587DD8310456B814045 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,11 +151,26 @@
 				E9B90FF02016D75900AE787C /* AppDelegate.m */,
 				E9B90FF22016D75900AE787C /* ViewController.h */,
 				E9B90FF32016D75900AE787C /* ViewController.m */,
+				E9B910232016DC7200AE787C /* BaseViewController.h */,
+				E9B910242016DC7200AE787C /* BaseViewController.m */,
+				E9B910262017078500AE787C /* KeyViewController.h */,
+				E9B910272017078500AE787C /* KeyViewController.m */,
+				E9B910292017384700AE787C /* GroupViewController.h */,
+				E9B9102A2017384700AE787C /* GroupViewController.m */,
+				E98C9FC420181D5B00790F1C /* TransitionViewController.h */,
+				E98C9FC520181D5B00790F1C /* TransitionViewController.m */,
+				E98C9FC7201837C200790F1C /* AffineViewController.h */,
+				E98C9FC8201837C200790F1C /* AffineViewController.m */,
+				E98C9FCA201863F500790F1C /* PathViewController.h */,
+				E98C9FCB201863F500790F1C /* PathViewController.m */,
+				E967DCD220196C3900667E83 /* DingViewController.h */,
+				E967DCD320196C3900667E83 /* DingViewController.m */,
 				E9B90FF52016D75900AE787C /* Main.storyboard */,
 				E9B90FF82016D75900AE787C /* Assets.xcassets */,
 				E9B90FFA2016D75900AE787C /* LaunchScreen.storyboard */,
 				E9B90FFD2016D75900AE787C /* Info.plist */,
 				E9B90FFE2016D75900AE787C /* main.m */,
+				E9B910222016DA7700AE787C /* Animation-Prefix.h */,
 			);
 			path = Animation;
 			sourceTree = "<group>";
@@ -139,9 +200,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E9B910182016D75900AE787C /* Build configuration list for PBXNativeTarget "Animation" */;
 			buildPhases = (
+				450C5B42926C301CD75383C7 /* [CP] Check Pods Manifest.lock */,
 				E9B90FE82016D75900AE787C /* Sources */,
 				E9B90FE92016D75900AE787C /* Frameworks */,
 				E9B90FEA2016D75900AE787C /* Resources */,
+				A2CF97E033487EF9C04227CA /* [CP] Embed Pods Frameworks */,
+				A96C0C552BC008650B26F9AE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -260,12 +324,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		450C5B42926C301CD75383C7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A2CF97E033487EF9C04227CA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Animation/Pods-Animation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A96C0C552BC008650B26F9AE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Animation/Pods-Animation-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E9B90FE82016D75900AE787C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E967DCD420196C3900667E83 /* DingViewController.m in Sources */,
+				E9B9102B2017384700AE787C /* GroupViewController.m in Sources */,
+				E98C9FC9201837C200790F1C /* AffineViewController.m in Sources */,
+				E98C9FC620181D5B00790F1C /* TransitionViewController.m in Sources */,
+				E9B910282017078500AE787C /* KeyViewController.m in Sources */,
+				E98C9FCC201863F500790F1C /* PathViewController.m in Sources */,
 				E9B90FF42016D75900AE787C /* ViewController.m in Sources */,
+				E9B910252016DC7200AE787C /* BaseViewController.m in Sources */,
 				E9B90FFF2016D75900AE787C /* main.m in Sources */,
 				E9B90FF12016D75900AE787C /* AppDelegate.m in Sources */,
 			);
@@ -428,9 +547,11 @@
 		};
 		E9B910192016D75900AE787C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FC15D28B2842E904440CF39 /* Pods-Animation.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "/Users/xingou/Desktop/Animation/Animation/Animation-Prefix.h";
 				INFOPLIST_FILE = Animation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.XinGou.Animation;
@@ -441,9 +562,11 @@
 		};
 		E9B9101A2016D75900AE787C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5467F25376925398DF2001A /* Pods-Animation.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "/Users/xingou/Desktop/Animation/Animation/Animation-Prefix.h";
 				INFOPLIST_FILE = Animation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.XinGou.Animation;
